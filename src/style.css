@@ -1,5 +1,10 @@
+:root {
+  --default-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
 
   font-weight: 500;
   font-style: normal;
@@ -8,7 +13,7 @@ h1 {
 }
 
 h3 {
-  font-family: "Poppins", serif;
+  font-family: var(--default-font);
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -16,9 +21,10 @@ h3 {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   font-weight: 400;
   font-style: normal;
+  font-size: 14px;
 }
 
 .logo {
@@ -36,10 +42,10 @@ p {
 .hero {
   height: auto;
   max-width: auto;
-  opacity: 0.9;
+
   background-image: url(/images/header-photo.jpeg);
   background-size: cover;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
 .hero h1 {
@@ -48,4 +54,12 @@ p {
 
 .hero h3 {
   font-size: 16px;
+}
+
+.homepage-grid {
+  padding: 20px 50px;
+}
+
+.green-plants {
+  max-width: 100%;
 }
