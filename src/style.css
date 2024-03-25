@@ -78,11 +78,11 @@ footer {
 }
 
 .container {
-  margin: 50px 80px;
+  margin: 50px auto;
 }
 
 .homepage-grid {
-  padding: 10px 30px;
+  padding: 20px 30px;
 }
 
 .green-plants {
@@ -91,6 +91,4 @@ footer {
 
 .icon {
   max-width: 40px;
-  fill: #fff;
-  font-weight: 500;
 }
