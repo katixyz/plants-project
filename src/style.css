@@ -1,6 +1,12 @@
 :root {
   --default-font: "Poppins", sans-serif;
   --heading-font: "Playfair Display", serif;
+  --branding-color: #58915d;
+}
+
+body,
+navbar {
+  background-color: #efe0d29d;
 }
 
 h1 {
@@ -25,10 +31,22 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
+  margin-bottom: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-weight: 600;
+}
+
+footer {
+  background-color: #58915de0;
+  padding: 10px;
 }
 
 .logo {
-  color: #708c4c;
+  color: var(--branding-color);
 }
 
 .navbar-collapse {
@@ -42,10 +60,9 @@ p {
 .hero {
   height: auto;
   max-width: auto;
-
   background-image: url(/images/header-photo.jpeg);
   background-size: cover;
-  padding: 80px 20px;
+  padding: 120px 20px;
 }
 
 .hero h1 {
@@ -56,10 +73,20 @@ p {
   font-size: 16px;
 }
 
+.container {
+  margin: 50px 80px;
+}
+
 .homepage-grid {
-  padding: 20px 50px;
+  padding: 10px 30px;
 }
 
 .green-plants {
   max-width: 100%;
+}
+
+.icon {
+  max-width: 30px;
+  fill: #fff;
+  font-weight: 500;
 }
