@@ -26,6 +26,10 @@ h3 {
   color: #fff;
 }
 
+h4 {
+  color: #0d1b14;
+}
+
 p {
   font-family: var(--default-font);
   font-weight: 400;
@@ -86,7 +90,7 @@ footer {
 }
 
 .icon {
-  max-width: 30px;
+  max-width: 40px;
   fill: #fff;
   font-weight: 500;
 }
