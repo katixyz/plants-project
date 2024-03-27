@@ -4,9 +4,9 @@
   --branding-color: #58915d;
 }
 
-body,
-navbar {
+body {
   background-color: #efe0d29d;
+  width: 100%;
 }
 
 h1 {
@@ -91,4 +91,26 @@ footer {
 
 .icon {
   max-width: 40px;
+}
+
+.about-content {
+  padding: 40px 20px;
+}
+
+.about-content h1 {
+  font-size: 64px;
+  color: black;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 36px;
+}
+
+.about-content-text {
+  padding: 25px;
+}
+
+.about-content-img {
+  padding: 25px;
 }
