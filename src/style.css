@@ -2,29 +2,26 @@
   --default-font: "Poppins", sans-serif;
   --heading-font: "Playfair Display", serif;
   --branding-color: #58915d;
+  --secondary-color: #f5ebe3;
 }
 
 body {
-  background-color: #efe0d29d;
+  background-color: var(--secondary-color);
   width: 100%;
   font-family: var(--default-font);
 }
 
 h1 {
+  font-size: 64px;
   font-family: var(--heading-font);
-
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  color: #fff;
+  color: black;
+  text-align: left;
 }
 
 h3 {
   font-family: var(--default-font);
   font-weight: 400;
   font-style: normal;
-  text-align: center;
-  color: #fff;
 }
 
 h4 {
@@ -46,7 +43,7 @@ a {
 }
 
 footer {
-  background-color: #58915de0;
+  background-color: var(--branding-color);
   padding: 10px;
 }
 
@@ -69,20 +66,26 @@ footer {
   background-size: cover;
   padding: 120px 20px;
 }
-
 .hero h1 {
   font-size: 48px;
+  font-family: var(--heading-font);
+  font-weight: 500;
+  text-align: center;
+  color: var(--secondary-color);
 }
 
 .hero h3 {
   font-size: 16px;
+  color: var(--secondary-color);
+  text-align: center;
 }
 
 .container {
-  margin: 50px auto;
+  margin: 10px auto;
+  padding: 20px;
 }
 
-.homepage-grid {
+.grid {
   padding: 20px 30px;
 }
 
@@ -94,24 +97,28 @@ footer {
   max-width: 40px;
 }
 
-.about-content {
+.about-content,
+.plants-content {
   padding: 40px 20px;
-}
-
-.about-content h1 {
-  font-size: 64px;
-  color: black;
-  text-align: left;
 }
 
 .about-content h2 {
   font-size: 36px;
 }
 
-.about-content-text {
+.about-content-text,
+.plants-content-text {
   padding: 25px;
 }
 
 .about-content-img {
   padding: 25px;
+}
+
+@media (max-width: 500px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
 }
