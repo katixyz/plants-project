@@ -49,6 +49,9 @@ a .icon {
 footer {
   background-color: var(--branding-color);
   padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo {
